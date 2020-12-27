@@ -1,0 +1,2 @@
+<%- classes.each do |klass| -%> <%- @hostmetadata=@hostmetadata+" "+klass if klass.match(/role::/) -%><%- end -%>
+HostMetadata=<%= @hostmetadata %>
